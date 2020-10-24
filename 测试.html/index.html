@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title>测试</title>
+	</head>
+	<body>
+		&nbsp;
+	</body>
+	<script type="text/javascript">
+			/*
+		 * 作业2：统计1月-5月的总天数。
+		 * sum += 1月天数
+		 * sum += 2月
+		 *for(循环5次：5个月){
+		 * 	sum += 每个月的天数
+		 * }
+		 */
+		var a = 0
+		var day = 0
+		var year = 2019
+		for (var month=1;month<=5;month ++) {
+			//1,3,5=31day
+			switch (month){
+				case 1:
+				case 3:
+				case 5:
+				    day = 31;
+				    break;
+				    //4=30day
+				case 4:
+				    day =30;
+				    break;
+				case 2:
+				    if(year % 4 ==0 && year % 100 != 0) {
+				    	day = 29;
+				    } else{
+				    	day = 28;
+				    }
+				   
+				}
+			  a += day
+			}
+		console.log(a)
+		
+	      
+    for (var i=0;i<=6;i++) {
+    	for(var j = 0;j < i;j++){
+    document.write('&nbsp;');
+   }
+     for (var j =0;j<i;j++){
+      document.write("*")
+     }
+     document.write("<br />")
+    }
+    
+//   for (var i=5;i<=6;i--){
+//  	for(var j = 0;j < i;j--){
+//  document.write('&nbsp;');
+// }
+//   for (var j =0;j<i;j++){
+//    document.write("*")
+//   }
+//   document.write("<br />")
+//  }
+//  
+    
+	</script>
+</html>

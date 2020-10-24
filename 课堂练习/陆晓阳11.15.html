@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="utf-8">
+		<title></title>
+	</head>
+
+	<body></body>
+	<script type="text/javascript">
+		//		.输出从1900年到2017年之间所有闰年
+		        for(var year=1900;year<=2017;year++){
+		        	if(year % 4 == 0 && year % 100 != 0){
+		        		console.log(year)
+		        	}
+		        }
+		        console.log('..........')
+		        
+		//      求1-3+5-7+ ?? -99+101的值。 
+		        var x1=0
+		        var y1=0
+		        for (var x=1;x<=101;x=x+2){
+		             x1+=x;
+		           }
+		           console.log(x1);
+		           for (var y=3;y<=101;y=y+4){
+		           y1+=y;
+		           }
+		           console.log(y1);
+		           console.log(x1-y1-y1);
+		        
+		       
+		       
+		//     .打印出2-100之间的素数(素数，就是只能被1或本身整除的数)
+		//	素数也叫质数，只能被1和本身整除的数。
+		////	2，3，5，7，11，13，17，19，23，29，31.。。。
+		//      for (var a=2;a<=100;a++) {
+		//      	if (a % 2 == 0) {
+		//      		
+		//      		
+		//      	}else if(a % 3 == 0 ){
+		//   		
+		//              
+		//      	}else if(a % 5 == 0){
+		//      		
+		//      	}
+		//      	console.log(a)
+		//      }
+		//      
+		       
+		        
+		//      
+		//      百元买百鸡：
+		//	100元钱，买100只鸡。 
+		//	公鸡5元一只。0-20 
+		//	母鸡3元一只。0-33
+		//	小鸡一元钱3只。
+		//      var mj = 1
+		//      var xj = 1
+		//      for (var gj=1;gj<=20;gj++) {
+		//      	if () {
+		//      		
+		//      	} else{
+		//      		
+		//      	}
+		//      }
+		         
+		//       一张纸的厚度大约是0.08mm，对折多少次之后能达到珠穆朗玛峰的高度（8848.13m）
+		//      var dz = 1
+		//      var z = 0.08
+		//      for (var dz=1;;) {
+		//      	
+		//      }
+		//      
+		     
+		//      求水仙花数：所有的三位数中，找
+		//	这个三位数的每位上的数字的立方和，刚好是这个数字本身，就是水仙花数。
+		//
+		// 153
+		//	1*1*1 + 5*5*5 + 3*3*3 == 153
+		        
+		        
+		//向页面文档中输出以下形状：
+		//  *
+		// ***
+		//*****
+		// *******
+		//*********
+		// *******
+		//*****
+		// ***
+		//  *
+		    for (var i=0;i<=6;i++) {
+		    	for(var j = 0;j < i;j++){
+		    document.write('&nbsp;');
+		   }
+		     for (var j =0;j<i;j++){
+		      document.write("*")
+		     }
+		     document.write("<br />")
+		    }
+		        document.write("<br />")
+		        document.write("<br />")
+		        document.write("<br />")
+		    for (var i=2;i<=6;i++) {
+		    	for(var j = 1;j < i;j++){
+		    document.write('&nbsp;');
+		   }
+		     for (var j =0;j<8;j++){
+		      document.write("*")
+		     }
+		     document.write("<br />")
+		    }
+		       
+		//     设计一个计算器：
+	</script>
+
+</html>
